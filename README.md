@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="cryptomorph/docs/logo.png" alt="Cryptomorph Logo" width="200" />
+  <img src="docs/logo.png" alt="Cryptomorph Logo" width="200" />
 </p>
 
 # Cryptomorph
@@ -159,7 +159,7 @@ Jeder Befehl folgt dem Schema:
 
 ## Lizenz
 
-MIT oder Apache 2.0
+MIT
 
 ---
 

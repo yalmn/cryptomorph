@@ -1,0 +1,11 @@
+# Setzt alle Textdateien auf automatische Zeilenend-Konvertierung
+* text=auto
+
+# Erzwingt LF für Rust-Quellcode und Markdown-Dateien (plattformsübergreifend)
+*.rs text eol=lf
+*.md text eol=lf
+
+# Optional: Binar-Dateien explizit als binary kennzeichnen (keine Konvertierung)
+*.png binary
+*.jpg binary
+*.exe binary
