@@ -6,3 +6,18 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+num-bigint = { version = "0.4", features = ["rand"] }
+num-traits = "0.2"
+num-integer = "0.1"
+aes = "0.8"
+cbc = "0.1"
+block-padding = "0.3"
+rand = "0.8"
+hex = "0.4"
+base64 = "0.21"
+sha2 = "0.10"
+
+
+[lib]
+name = "cryptomorph"
+path = "src/lib.rs"
